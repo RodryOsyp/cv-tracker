@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { DonutChart } from "@/components/ui/donut-chart";
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -10,7 +11,6 @@ export default function Home() {
      <h1 className="text-3xl font-bold ">Welcome to the CV Tracker</h1>
      <Link href="/login"><Button>Login</Button></Link>
       <DonutChart/>
-    
      </div>
     </div>
   );
